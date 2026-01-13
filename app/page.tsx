@@ -24,14 +24,26 @@ export default function Home() {
 
       {/* Background Image with Gradient Overlay */}
       <div className="absolute inset-0 z-0">
+        {/* Mobile Hero Image */}
         <Image
-          src="/hero.png"
-          alt="BagusGo Hero Background"
+          src="/hero_mobile.png"
+          alt="BagusGo Hero Background Mobile"
           fill
           style={{ objectFit: "cover", objectPosition: "center" }}
           quality={100}
           priority
-          className="scale-105" // Slight zoom for depth
+          className="block md:hidden scale-105"
+        />
+
+        {/* Desktop Hero Image */}
+        <Image
+          src="/hero.png"
+          alt="BagusGo Hero Background Desktop"
+          fill
+          style={{ objectFit: "cover", objectPosition: "center" }}
+          quality={100}
+          priority
+          className="hidden md:block scale-105" // Slight zoom for depth
         />
         {/* Modern Gradient Overlay: Dark on left, transparent on right */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/50 to-transparent"></div>
