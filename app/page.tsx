@@ -5,6 +5,23 @@ import { Download, ChevronRight, Star, Users } from "lucide-react";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col justify-center text-white overflow-hidden relative">
+      {/* Header / Logo */}
+      <nav className="absolute top-0 left-0 w-full z-20 px-6 py-6 md:px-12 md:py-8">
+        <div className="flex items-center gap-3">
+          <div className="relative w-10 h-10 md:w-12 md:h-12 bg-white/10 backdrop-blur-md rounded-xl p-1 border border-white/20 shadow-lg">
+            <Image 
+              src="/icon.png" 
+              alt="BagusGo Logo" 
+              fill 
+              className="object-contain p-1"
+            />
+          </div>
+          <span className="text-xl md:text-2xl font-bold tracking-tight text-white drop-shadow-md">
+            BagusGo
+          </span>
+        </div>
+      </nav>
+
       {/* Background Image with Gradient Overlay */}
       <div className="absolute inset-0 z-0">
         <Image

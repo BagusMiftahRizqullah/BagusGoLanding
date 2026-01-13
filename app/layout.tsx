@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "BagusGo - Optimasi Rute Terbaik",
   description: "Aplikasi optimasi rute pengiriman untuk efisiensi bisnis Anda.",
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+  },
 };
 
 export default function RootLayout({
