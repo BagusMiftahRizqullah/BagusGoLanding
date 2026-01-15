@@ -75,7 +75,7 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-5 pt-2">
             <a 
-              href="https://expo.dev/artifacts/eas/efbwqPeN4E9EHfb2276Uaz.apk" 
+              href="https://download1648.mediafire.com/k28wyfan2xyg9Rou6VWImDuYdoBRWndR3pfcGm6jVif9noldMclapAzoYkkYYS9mHvNs1wkmKEI2wKqnO8NML4P10DnHglR66phW0gfFI8w1Toof-yOAxKOOEP3VrDI7abAlVJt6Cyz56ukwrlI56o_wzLYsqUU_NXS6F-wnZDJ9mfI/208rqngthuu5xya/BagusGo-V1.2.apk" 
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-3 bg-green-600 hover:bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-[0_10px_20px_rgba(34,197,94,0.3)] hover:shadow-[0_15px_30px_rgba(34,197,94,0.5)] transform hover:-translate-y-1 active:scale-95 border border-green-500/50"
