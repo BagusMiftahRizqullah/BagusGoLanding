@@ -75,7 +75,7 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-5 pt-2">
             <a 
-              href="http://144.202.24.24:3009/download/apk" 
+              href="http://144.202.24.24/bagusgo/download/apk" 
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-3 bg-green-600 hover:bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-[0_10px_20px_rgba(34,197,94,0.3)] hover:shadow-[0_15px_30px_rgba(34,197,94,0.5)] transform hover:-translate-y-1 active:scale-95 border border-green-500/50"
