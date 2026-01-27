@@ -251,8 +251,8 @@ export default function Home() {
           </blockquote>
           
           <div>
-            <div className="font-bold text-gray-900 text-lg">Budi Santoso</div>
-            <div className="text-green-600">Kurir Ekspedisi Jakarta</div>
+            <div className="font-bold text-gray-900 text-lg">Pak Bull</div>
+            <div className="text-green-600">Driver Gojek Bali</div>
           </div>
 
           <div className="pt-8 border-t border-green-200 mt-8">
